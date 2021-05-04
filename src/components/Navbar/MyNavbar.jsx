@@ -7,7 +7,7 @@ import "./MyNavbar.css";
 function MyNavbar() {
     return (
       <Navbar>
-        <Nav className= "mr-auto">
+        <Nav className= "animate-navbar nav-theme justify-content-between">
           <Nav.Link href="#home">
             Home
           </Nav.Link>
