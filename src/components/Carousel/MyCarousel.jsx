@@ -12,7 +12,7 @@ function MyCarousel() {
           <img
             id="Picture1"
             className="d-block w-100"
-            style={{ width: "100%", height: "100%" }}
+            //style={{ width: "20%", height: "20%" }}
             src={Picture1}
             alt="First slide"
           />
@@ -25,7 +25,7 @@ function MyCarousel() {
           <img
             id="Picture2"
             className="d-block w-100"
-            style={{ width: "100%", height: "100%" }}
+            //style={{ width: "20%", height: "20%" }}
             src={Picture2}
             alt="Second slide"
           />
@@ -38,7 +38,7 @@ function MyCarousel() {
           <img
             id="Picture3"
             className="d-block w-100"
-            style={{ width: "100%", height: "100%" }}
+            //style={{ width: "20%", height: "20%" }}
             src={Picture3}
             alt="Third slide"
           />
