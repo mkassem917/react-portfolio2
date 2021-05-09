@@ -6,14 +6,14 @@ import Contact from "./pages/Contact";
 
  // components
  import Footer from "./components/Footer/Footer.jsx"
- import MyCarousel from "./components/Carousel/MyCarousel.jsx"
+ import Carousel from "./components/Carousel/MyCarousel.jsx"
 
 function App() {
   return (
     
       <div>
         <Navbar />
-        <MyCarousel />
+        <Carousel />
         <About />
         <Contact />
         <Portfolio />

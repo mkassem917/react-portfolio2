@@ -1,17 +1,18 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 import Picture1 from "../../assets/16.jpg";
 import Picture2 from "../../assets/3.jpg";
-import Picture3 from "../../assets/7.jpg"
+import Picture3 from "../../assets/7.jpg";
 
-function About() {
+function MyCarousel() {
   return (
     <div id="home">
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
-          id="Picture1"
+            id="Picture1"
             className="d-block w-100"
+            style={{ width: "100%", height: "100%" }}
             src={Picture1}
             alt="First slide"
           />
@@ -22,8 +23,9 @@ function About() {
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
-          id="Picture2"
+            id="Picture2"
             className="d-block w-100"
+            style={{ width: "100%", height: "100%" }}
             src={Picture2}
             alt="Second slide"
           />
@@ -34,21 +36,16 @@ function About() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-          id="Picture3"
+            id="Picture3"
             className="d-block w-100"
+            style={{ width: "100%", height: "100%" }}
             src={Picture3}
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
   );
 }
 
-export default About;
+export default MyCarousel;
