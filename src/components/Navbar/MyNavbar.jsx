@@ -8,19 +8,19 @@ function MyNavbar() {
     return (
       <Navbar>
         <Nav className= "animate-navbar nav-theme justify-content-between">
-          <Nav.Link href="#home">
+          <Nav.Link className="link" href="#home">
             Home
           </Nav.Link>
     
-          <Nav.Link href="#about">
+          <Nav.Link className="link" href="#about">
             About
           </Nav.Link>
     
-          <Nav.Link href="#portfolio">
+          <Nav.Link className="link" href="#portfolio">
             Portfolio
           </Nav.Link>
     
-          <Nav.Link href="#contact">
+          <Nav.Link className="link" href="#contact">
             Contact
           </Nav.Link>
               

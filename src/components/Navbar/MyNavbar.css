@@ -8,7 +8,7 @@
     padding: 6 !important;
     margin: 6 !important;
     justify-content: space-between;
-    color: skyblue !important;
+    
     
   }
   
@@ -17,6 +17,10 @@
     color: skyblue !important;
     font-size: larger;
     
+  }
+
+  .link {
+color: white !important;
   }
 
   
