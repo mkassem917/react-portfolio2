@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Drinks from "../assets/drinksplease.png";
@@ -14,6 +13,13 @@ function Portfolio() {
   return (
     <Container>
         <div id="portfolio"></div>
+        <div className="m-2">
+                            <a  href="https://github.com/mkassem917" target="_blank" rel="noopener noreferrer">
+                                <Button variant="outline-success">
+                                <i class="fab fa-github"></i>
+                                </Button>
+                            </a>
+                        </div>
       <h1> My Projects </h1>
       <Row>
         <div className="card">

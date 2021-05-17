@@ -7,6 +7,7 @@ import "./MyNavbar.css";
 function MyNavbar() {
     return (
       <Navbar>
+        <h2>Mohammad Kassem</h2>
         <Nav className= "animate-navbar nav-theme justify-content-between">
           <Nav.Link className="link" href="#home">
             Home

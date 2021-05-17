@@ -1,5 +1,5 @@
 
-#home {
+/* #home {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -8,4 +8,9 @@
     opacity: 0;
     transition: 0.5s ease;
     overflow: hidden;
-  }
+    } */
+
+  /* .carousel {
+    max-width: 100%;
+    max-height: 75px;
+  } */

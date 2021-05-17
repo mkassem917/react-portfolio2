@@ -8,8 +8,12 @@
 
 h1 {
   text-align: center;
-  span: 20px;
   font-size: 48px !important;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 20px;
+}
+
+.button, .m-2 {
+  text-align: center;
+
 }
