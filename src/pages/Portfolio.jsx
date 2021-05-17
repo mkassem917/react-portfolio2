@@ -7,19 +7,25 @@ import Drinks from "../assets/drinksplease.png";
 import Vaxtrax from "../assets/vaxtrax.png";
 import Burger from "../assets/Burger.png";
 import DayPlanner from "../assets/day-planner.png";
+import Quiz from "../assets/quiz.png";
+import Fitness from "../assets/fitness.png";
 import "../assets/Portfolio.css";
 
 function Portfolio() {
   return (
     <Container>
-        <div id="portfolio"></div>
-        <div className="m-2">
-                            <a  href="https://github.com/mkassem917" target="_blank" rel="noopener noreferrer">
-                                <Button variant="outline-success">
-                                <i class="fab fa-github"></i>
-                                </Button>
-                            </a>
-                        </div>
+      <div id="portfolio"></div>
+      <div className="m-2">
+        <a
+          href="https://github.com/mkassem917"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="outline-success">
+            <i class="fab fa-github"></i>
+          </Button>
+        </a>
+      </div>
       <h1> My Projects </h1>
       <Row>
         <div className="card">
@@ -85,7 +91,8 @@ function Portfolio() {
             <Card.Body>
               <Card.Title>Burger Logger</Card.Title>
               <Card.Text>
-              The Burger Logger Application is running with MySQL, Node, Express, Handlebars using MVC Design Pattern
+                The Burger Logger Application is running with MySQL, Node,
+                Express, Handlebars using MVC Design Pattern
               </Card.Text>
               <div>
                 <a
@@ -108,14 +115,64 @@ function Portfolio() {
             <Card.Body>
               <Card.Title>Day Planner</Card.Title>
               <Card.Text>
-              This application is displaying a standard business day where the
-              users will be able to write notes and save them accordingly to thier
-              schedule. The color red will be displaying the current hour, the
-              green the upcoming hours and the gray the pass hours.
+                This application is displaying a standard business day where the
+                users will be able to write notes and save them accordingly to
+                thier schedule. The color red will be displaying the current
+                hour, the green the upcoming hours and the gray the pass hours.
               </Card.Text>
               <div>
                 <a
                   href="https://mkassem917.github.io/day-planner/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="m-2" variant="outline-primary">
+                    Deployed Link
+                  </Button>
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="card">
+          <Card style={{ width: 20 + "rem" }}>
+            <Card.Img variant="top" src={Quiz} />
+            <Card.Body>
+              <Card.Title>Code Quiz</Card.Title>
+              <Card.Text>
+                This is a Code Quiz Challenge! Answer 5 questions about coding
+                concepts. View High Scores, Enter your name to be added to the
+                High Scores
+              </Card.Text>
+              <div>
+                <a
+                  href="https://mkassem917.github.io/code-quiz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="m-2" variant="outline-primary">
+                    Deployed Link
+                  </Button>
+                </a>
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className="card">
+          <Card style={{ width: 20 + "rem" }}>
+            <Card.Img variant="top" src={Fitness} />
+            <Card.Body>
+              <Card.Title>Fitness Tracker</Card.Title>
+              <Card.Text>
+                This Fitness Tracker application allows users to track their
+                daily workout routines, and view a weekly summary of workouts
+                completed to help users reach their fitness goals!
+              </Card.Text>
+              <div>
+                <a
+                  href="https://fitness-tracker-moe.herokuapp.com/ "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
