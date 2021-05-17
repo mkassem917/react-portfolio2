@@ -31,13 +31,10 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded">
                 Hello I'm<strong>&nbsp; Mohammad Kassem,</strong>
                 I'm a Full Stack Web Developer with focus on React.js, Redux,
-                Node.js. I'm a family man with two young boys and my wife.
-                <br /> <br />
-                I'm currently the Senior IT Manager for the Beef Jerky Outlet
-                Franchise, Inc!
-                <br /> <br />
-                Lastly, My family and I own and operate a Beef Jerky Outlet in
-                Dundee, MI.
+                Node.js. I'm a family man with two young boys and my wife. I'm
+                currently the Senior IT Manager for the Beef Jerky Outlet
+                Franchise, Inc! Lastly, My family and I own and operate a Beef
+                Jerky Outlet in Dundee, MI.
               </Row>
               <Col className="d-flex justify-content-center flex-wrap pt-5">
                 <div>
